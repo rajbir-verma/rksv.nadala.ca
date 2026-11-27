@@ -18,14 +18,6 @@ function Set-GeneratedSection([string]$html, [string]$section, [string]$content)
 }
 
 $summary = ($data.summary | ForEach-Object { "<p>$(Format-Html $_)</p>" }) -join "`n"
-$features = foreach ($job in $data.experience) {
-    foreach ($item in $job.accomplishments | Where-Object title) {
-        $title = if ($item.portfolioTitle) { $item.portfolioTitle } else { $item.title }
-        $text = if ($item.portfolioText) { $item.portfolioText } else { $item.text }
-        $tags = ($item.tags | ForEach-Object { "<span>$(Format-Html $_)</span>" }) -join ''
-        "<article class='feature'><h3>$(Format-Html $title)</h3><p>$(Format-Html $text)</p><div class='tags'>$tags</div></article>"
-    }
-}
 $timeline = foreach ($job in $data.experience) {
     $lead = ($job.accomplishments | Where-Object { -not $_.title } | Select-Object -First 2 | ForEach-Object { Format-Html $_.text }) -join ' '
     if ($job.portfolioSummary) { $lead = Format-Html $job.portfolioSummary }
@@ -45,7 +37,6 @@ $indexPath = Join-Path $root 'index.html'
 $index = [IO.File]::ReadAllText($indexPath)
 $portfolioSummary = if ($data.portfolioSummary) { ($data.portfolioSummary | ForEach-Object { "<p>$(Format-Html $_)</p>" }) -join "`n" } else { $summary }
 $index = Set-GeneratedSection $index 'summary' $portfolioSummary
-$index = Set-GeneratedSection $index 'highlights' ($features -join "`n")
 $index = Set-GeneratedSection $index 'experience' ($timeline -join "`n")
 $index = Set-GeneratedSection $index 'skills' ($portfolioSkills -join "`n")
 
