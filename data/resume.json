@@ -73,9 +73,9 @@
                                                                     "Compliance",
                                                                     "Operations"
                                                                 ],
-                                                       "text":  "Built a compliance review workflow that staff use to verify declared values on U.S.-bound shipments by requesting invoices or corrections. Added a check at carrier release that blocks shipments with open reviews until staff approve them.",
+                                                       "text":  "Built a compliance review workflow for U.S.-bound shipments with vague descriptions, incorrect or mismatched HTS codes, or discrepancies in declared value. Staff can request corrections or supporting documents, and shipments with open reviews are blocked at carrier release until staff approve them.",
                                                        "portfolioTitle":  "Shipment compliance review",
-                                                       "portfolioText":  "Staff can request invoices or corrections to verify declared values. The carrier-release workflow blocks shipments with open reviews until staff approve them."
+                                                       "portfolioText":  "Staff can ask customers to clarify product descriptions, correct tariff codes, or provide invoices to verify declared values. Shipments with open reviews are held until staff approve them."
                                                    },
                                                    {
                                                        "title":  "Tariff calculation engine",
