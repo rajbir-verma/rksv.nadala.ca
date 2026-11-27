@@ -54,8 +54,6 @@ $role = Format-Html $data.role
 $email = Format-Html $data.email
 $website = Format-Html $data.website
 $websiteLabel = Format-Html ([uri]$data.website).Host
-$github = Format-Html $data.github
-$githubLabel = Format-Html ($data.github -replace '^https://')
 $resumeSkills = foreach ($group in $data.skills) {
     "<li><strong>$(Format-Html $group.title)</strong> &ndash; $(Format-Html ($group.items -join ', '))</li>"
 }
@@ -94,7 +92,7 @@ $resume = @"
     <header>
       <h1>$name</h1>
       <p class="role">$role</p>
-      <p class="contact"><a href="mailto:$email">$email</a><a href="$website">$websiteLabel</a><a href="$github">$githubLabel</a></p>
+      <p class="contact"><a href="mailto:$email">$email</a><a href="$website">$websiteLabel</a></p>
     </header>
     <section>
       <h2>Professional Summary</h2>
