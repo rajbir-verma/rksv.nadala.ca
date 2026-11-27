@@ -112,7 +112,7 @@
                                                        "text":  "Mentor developers through code reviews and pair programming. Maintain production Rails applications through framework and dependency upgrades, automated testing, refactoring, and troubleshooting."
                                                    }
                                                ],
-                           "portfolioSummary":  "Designs partner APIs and builds the Rails systems behind carrier integrations, postage pricing, and customs reviews. Helps set technical direction and mentors developers through code review and pairing."
+                           "portfolioSummary":  "Helps set technical direction for the Rails shipping platform and owns the design of its partner API. Built the tariff engine that calculates duties upfront and the review workflow that holds shipments until staff resolve customs issues."
                        },
                        {
                            "company":  "Toronto Public Library",
