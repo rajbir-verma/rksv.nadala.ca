@@ -1,176 +1,176 @@
 {
-    "name":  "Rajbir Karan Verma",
-    "role":  "Senior Ruby on Rails Developer",
-    "email":  "rajbirkaransingh@gmail.com",
-    "website":  "https://rksv.nadala.ca",
-    "summary":  [
-                    "Senior Ruby on Rails Developer with 13+ years of experience building and maintaining production SaaS applications. Own API architecture and database design for partner-facing shipping systems, and build software that helps operations teams enforce U.S. customs requirements."
-                ],
-    "skills":  [
-                   {
-                       "items":  [
-                                     "Ruby",
-                                     "Ruby on Rails",
-                                     "JavaScript",
-                                     "Vue.js",
-                                     "React",
-                                     "HTML",
-                                     "CSS",
-                                     "SASS",
-                                     "HAML",
-                                     "Liquid"
-                                 ],
-                       "title":  "Languages \u0026 Frameworks"
-                   },
-                   {
-                       "items":  [
-                                     "Rails Engines",
-                                     "RESTful APIs",
-                                     "Domain Modelling",
-                                     "Third-Party Integrations",
-                                     "Authentication \u0026 Authorization",
-                                     "Background Processing"
-                                 ],
-                       "title":  "Backend \u0026 Architecture"
-                   },
-                   {
-                       "items":  [
-                                     "PostgreSQL",
-                                     "MySQL",
-                                     "Redis",
-                                     "Que",
-                                     "Sidekiq",
-                                     "Puma"
-                                 ],
-                       "title":  "Databases \u0026 Infrastructure"
-                   },
-                   {
-                       "items":  [
-                                     "Git",
-                                     "GitHub",
-                                     "Jira",
-                                     "Automated Testing",
-                                     "Code Reviews",
-                                     "Rails \u0026 Dependency Upgrades",
-                                     "Production Troubleshooting",
-                                     "Agile Development",
-                                     "PI Planning",
-                                     "AI-Assisted Development"
-                                 ],
-                       "title":  "Engineering Practices \u0026 Tooling"
-                   }
-               ],
-    "experience":  [
-                       {
-                           "company":  "Chit Chats",
-                           "role":  "Senior Software Developer",
-                           "dates":  "October 2020 – Present",
-                           "accomplishments":  [
-                                                   {
-                                                       "title":  "Shipment compliance review",
-                                                       "tags":  [
-                                                                    "Rails",
-                                                                    "Compliance",
-                                                                    "Operations"
-                                                                ],
-                                                       "text":  "Built a compliance review workflow for U.S.-bound shipments with vague descriptions, incorrect or mismatched HTS codes, or discrepancies in declared value. Staff can request corrections or supporting documents, and shipments with open reviews are blocked at carrier release until staff approve them.",
-                                                       "portfolioTitle":  "Shipment compliance review",
-                                                       "portfolioText":  "Staff can ask customers to clarify product descriptions, correct tariff codes, or provide invoices to verify declared values. Shipments with open reviews are held until staff approve them."
-                                                   },
-                                                   {
-                                                       "title":  "Tariff calculation engine",
-                                                       "tags":  [
-                                                                    "Ruby",
-                                                                    "Domain modelling",
-                                                                    "Customs"
-                                                                ],
-                                                       "text":  "Designed a tariff engine that turns regulatory rules into formulas evaluated at runtime. Built a service that determines which inputs the shipping form needs and verified the calculated duties against manual calculations.",
-                                                       "portfolioTitle":  "Calculating duties before shipping",
-                                                       "portfolioText":  "The shipping form asks for the details required to calculate U.S. duties upfront. The tariff engine applies the relevant rules, with results checked against manual calculations."
-                                                   },
-                                                   {
-                                                       "title":  "Partner-facing shipping API",
-                                                       "tags":  [
-                                                                    "Rails",
-                                                                    "REST APIs",
-                                                                    "Database design"
-                                                                ],
-                                                       "text":  "Owned API architecture and database design for a partner-facing REST API covering shipment creation, rates, labels, tracking, and account management.",
-                                                       "portfolioTitle":  "Shipping from partner platforms",
-                                                       "portfolioText":  "Shipping partners can create shipments, get rates, generate labels, and track packages directly from their own platforms."
-                                                   },
-                                                   {
-                                                       "text":  "Designed and built a Rails framework that determines which postage products a shipment qualifies for, then calculates rates for the eligible options."
-                                                   },
-                                                   {
-                                                       "text":  "Implemented two-factor authentication using SMS verification and authenticator apps."
-                                                   },
-                                                   {
-                                                       "text":  "Built and tested an AI-assisted pull request reviewer using examples from past reviews. Verified edge cases it surfaced by checking ticket requirements, reproducing the behaviour locally, and confirming it with tests."
-                                                   },
-                                                   {
-                                                       "text":  "Mentor developers through code reviews and pair programming. Maintain production Rails applications through framework and dependency upgrades, automated testing, refactoring, and troubleshooting."
-                                                   }
-                                               ],
-                           "portfolioSummary":  "Helps set technical direction for the Rails shipping platform and owns the design of its partner API. Built the tariff engine that calculates duties upfront and the review workflow that holds shipments until staff resolve customs issues."
-                       },
-                       {
-                           "company":  "Toronto Public Library",
-                           "role":  "Senior Developer",
-                           "dates":  "February 2018 – October 2020",
-                           "accomplishments":  [
-                                                   {
-                                                       "text":  "Developed and supported the bilingual TD Summer Reading Club application using multiple Rails Engines, maintaining and evolving the platform during a period of more than 150% growth in website traffic."
-                                                   },
-                                                   {
-                                                       "text":  "Led full-stack development of the TPL Kids website and content management system, working directly with stakeholders and management to define requirements, technical solutions, and implementation priorities."
-                                                   },
-                                                   {
-                                                       "text":  "Maintained and enhanced tpl.ca, delivering new functionality, troubleshooting production issues, and improving existing features across the library\u0027s public-facing platform."
-                                                   },
-                                                   {
-                                                       "text":  "Rebuilt the Live Searches Dashboard using Ruby on Rails and Vue.js, providing real-time visibility into search activity on tpl.ca."
-                                                   }
-                                               ],
-                           "portfolioSummary":  "Led development of the TPL Kids website and its content management system. Helped maintain the bilingual TD Summer Reading Club site."
-                       },
-                       {
-                           "company":  "Mobile Fringe",
-                           "role":  "Software Developer",
-                           "dates":  "May 2014 – February 2018",
-                           "accomplishments":  [
-                                                   {
-                                                       "text":  "Developed and maintained a production Ruby on Rails SaaS platform handling approximately one million requests per day, contributing to backend functionality, database models, and frontend development."
-                                                   },
-                                                   {
-                                                       "text":  "Designed and implemented application features and database changes while maintaining existing functionality in a high-traffic production environment."
-                                                   },
-                                                   {
-                                                       "text":  "Worked directly with clients to gather requirements, define user stories, and translate business needs into technical solutions."
-                                                   },
-                                                   {
-                                                       "text":  "Contributed to application reliability and maintainability through code reviews, production troubleshooting, and ongoing improvements to the Rails codebase."
-                                                   }
-                                               ],
-                           "portfolioSummary":  "Developed and maintained features for a Rails platform handling about a million requests a day."
-                       },
-                       {
-                           "company":  "Virtace Inc.",
-                           "role":  "Web Developer",
-                           "dates":  "February 2013 – May 2014",
-                           "accomplishments":  [
-                                                   {
-                                                       "text":  "Developed a purchase order request application using Ruby on Rails, including backend functionality and interactive frontend components built with JavaScript and jQuery."
-                                                   },
-                                                   {
-                                                       "text":  "Developed and customized WordPress themes to support client websites and business requirements."
-                                                   }
-                                               ],
-                           "portfolioSummary":  "Developed a Rails app for purchase order requests and customized WordPress themes for clients."
-                       }
-                   ],
-    "portfolioSummary":  [
-                             "I’m a senior Ruby on Rails developer with 13+ years of experience.",
-                             "At Chit Chats, I help set the technical direction for our shipping platform and stay hands-on with its design, development, and operation."
-                         ]
+  "name": "Rajbir Karan Verma",
+  "role": "Senior Software Developer",
+  "email": "rajbirkaransingh@gmail.com",
+  "website": "https://rksv.nadala.ca",
+  "summary": [
+    "Senior Ruby on Rails Developer with 13+ years of experience building and maintaining production SaaS applications. Own API architecture and database design for partner-facing shipping systems, and build software that helps operations teams enforce U.S. customs requirements."
+  ],
+  "skills": [
+    {
+      "items": [
+        "Ruby",
+        "Ruby on Rails",
+        "JavaScript",
+        "Vue.js",
+        "React",
+        "HTML",
+        "CSS",
+        "SASS",
+        "HAML",
+        "Liquid"
+      ],
+      "title": "Languages & Frameworks"
+    },
+    {
+      "items": [
+        "Rails Engines",
+        "RESTful APIs",
+        "Domain Modelling",
+        "Third-Party Integrations",
+        "Authentication & Authorization",
+        "Background Processing"
+      ],
+      "title": "Backend & Architecture"
+    },
+    {
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "Redis",
+        "Que",
+        "Sidekiq",
+        "Puma"
+      ],
+      "title": "Databases & Infrastructure"
+    },
+    {
+      "items": [
+        "Git",
+        "GitHub",
+        "Jira",
+        "Automated Testing",
+        "Code Reviews",
+        "Rails & Dependency Upgrades",
+        "Production Troubleshooting",
+        "Agile Development",
+        "PI Planning",
+        "AI-Assisted Development"
+      ],
+      "title": "Engineering Practices & Tooling"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Chit Chats",
+      "role": "Senior Software Developer",
+      "dates": "October 2020 – Present",
+      "accomplishments": [
+        {
+          "title": "Shipment compliance review",
+          "tags": [
+            "Rails",
+            "Compliance",
+            "Operations"
+          ],
+          "text": "Built a compliance review workflow for U.S.-bound shipments with vague descriptions, incorrect or mismatched HTS codes, or discrepancies in declared value. Staff can request corrections or supporting documents, and shipments with open reviews are blocked at carrier release until staff approve them.",
+          "portfolioTitle": "Shipment compliance review",
+          "portfolioText": "Staff can ask customers to clarify product descriptions, correct tariff codes, or provide invoices to verify declared values. Shipments with open reviews are held until staff approve them."
+        },
+        {
+          "title": "Tariff calculation engine",
+          "tags": [
+            "Ruby",
+            "Domain modelling",
+            "Customs"
+          ],
+          "text": "Designed a tariff engine that turns regulatory rules into formulas evaluated at runtime. Built a service that determines which inputs the shipping form needs and verified the calculated duties against manual calculations.",
+          "portfolioTitle": "Calculating duties before shipping",
+          "portfolioText": "The shipping form asks for the details required to calculate U.S. duties upfront. The tariff engine applies the relevant rules, with results checked against manual calculations."
+        },
+        {
+          "title": "Partner-facing shipping API",
+          "tags": [
+            "Rails",
+            "REST APIs",
+            "Database design"
+          ],
+          "text": "Owned API architecture and database design for a partner-facing REST API covering shipment creation, rates, labels, tracking, and account management.",
+          "portfolioTitle": "Shipping from partner platforms",
+          "portfolioText": "Shipping partners can create shipments, get rates, generate labels, and track packages directly from their own platforms."
+        },
+        {
+          "text": "Designed and built a Rails framework that determines which postage products a shipment qualifies for, then calculates rates for the eligible options."
+        },
+        {
+          "text": "Implemented two-factor authentication using SMS verification and authenticator apps."
+        },
+        {
+          "text": "Built and tested an AI-assisted pull request reviewer using examples from past reviews. Verified edge cases it surfaced by checking ticket requirements, reproducing the behaviour locally, and confirming it with tests."
+        },
+        {
+          "text": "Mentor developers through code reviews and pair programming. Maintain production Rails applications through framework and dependency upgrades, automated testing, refactoring, and troubleshooting."
+        }
+      ],
+      "portfolioSummary": "Helps set technical direction for the Rails shipping platform and owns the design of its partner API. Built the tariff engine that calculates duties upfront and the review workflow that holds shipments until staff resolve customs issues."
+    },
+    {
+      "company": "Toronto Public Library",
+      "role": "Senior Developer",
+      "dates": "February 2018 – October 2020",
+      "accomplishments": [
+        {
+          "text": "Developed and supported the bilingual TD Summer Reading Club application using multiple Rails Engines, maintaining and evolving the platform during a period of more than 150% growth in website traffic."
+        },
+        {
+          "text": "Led full-stack development of the TPL Kids website and content management system, working directly with stakeholders and management to define requirements, technical solutions, and implementation priorities."
+        },
+        {
+          "text": "Maintained and enhanced tpl.ca, delivering new functionality, troubleshooting production issues, and improving existing features across the library's public-facing platform."
+        },
+        {
+          "text": "Rebuilt the Live Searches Dashboard using Ruby on Rails and Vue.js, providing real-time visibility into search activity on tpl.ca."
+        }
+      ],
+      "portfolioSummary": "Led development of the TPL Kids website and its content management system. Helped maintain the bilingual TD Summer Reading Club site."
+    },
+    {
+      "company": "Mobile Fringe",
+      "role": "Software Developer",
+      "dates": "May 2014 – February 2018",
+      "accomplishments": [
+        {
+          "text": "Developed and maintained a production Ruby on Rails SaaS platform handling approximately one million requests per day, contributing to backend functionality, database models, and frontend development."
+        },
+        {
+          "text": "Designed and implemented application features and database changes while maintaining existing functionality in a high-traffic production environment."
+        },
+        {
+          "text": "Worked directly with clients to gather requirements, define user stories, and translate business needs into technical solutions."
+        },
+        {
+          "text": "Contributed to application reliability and maintainability through code reviews, production troubleshooting, and ongoing improvements to the Rails codebase."
+        }
+      ],
+      "portfolioSummary": "Developed and maintained features for a Rails platform handling about a million requests a day."
+    },
+    {
+      "company": "Virtace Inc.",
+      "role": "Web Developer",
+      "dates": "February 2013 – May 2014",
+      "accomplishments": [
+        {
+          "text": "Developed a purchase order request application using Ruby on Rails, including backend functionality and interactive frontend components built with JavaScript and jQuery."
+        },
+        {
+          "text": "Developed and customized WordPress themes to support client websites and business requirements."
+        }
+      ],
+      "portfolioSummary": "Developed a Rails app for purchase order requests and customized WordPress themes for clients."
+    }
+  ],
+  "portfolioSummary": [
+    "I’m a senior Ruby on Rails developer with 13+ years of experience.",
+    "At Chit Chats, I help set the technical direction for our shipping platform and stay hands-on with its design, development, and operation."
+  ]
 }
